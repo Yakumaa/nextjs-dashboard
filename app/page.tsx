@@ -4,6 +4,7 @@ import Link from 'next/link';
 import styles from '@/app/ui/home.module.css';
 import { lusitana } from './ui/fonts';
 import Image from 'next/image';
+import { SpeedInsights } from '@vercel/speed-insights/next';
 
 export default function Page() {
   return (
@@ -50,6 +51,7 @@ export default function Page() {
           />
         </div>
       </div>
+      <SpeedInsights />
     </main>
   );
 }
